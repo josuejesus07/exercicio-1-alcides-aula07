@@ -1,0 +1,616 @@
+.container{
+    width:700px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* position: relative; */
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.img6:hover{
+    box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.497);
+}
+/* girando a carta */
+.imagem1:hover{
+    box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.497);
+}
+
+
+.flip-container {
+    margin-right: 10px;
+
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+}
+
+.flipper{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+    transition: 0.8s;
+    position: relative;
+}
+#clique{
+    display: none;
+}
+
+#clique:checked~.flip-container .flipper{
+	transform: rotateY(180deg);
+	
+}
+
+
+.frontal,.verso{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}  
+.verso{
+	transform: rotateY(180deg);
+}
+.imagem1{
+    background-color:#dfdfdf;
+    width:150px;
+    height: 150px;
+    position:relative;
+}
+.imagem1 p{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(105, 147, 133);
+     
+      
+}
+
+
+/* segunda imagem clique da segunda imagem */
+
+.flip-container2 {
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+}
+
+.flipper2{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+    transition: 0.8s;
+    position: relative;
+}
+#clique2{
+    display: none;
+}
+
+#clique2:checked~.flip-container2 .flipper2{
+	transform: rotateY(180deg);
+	
+}
+
+
+.frontal2,.verso2{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}  
+.verso2{
+	transform: rotateY(180deg);
+}
+.imagem2{
+    background-color:#dfdfdf;
+    width:150px;
+    height: 150px;
+    position:relative;
+}
+.imagem2 p{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(105, 147, 133);
+     
+      
+}
+
+/* terceira imagem checked dela */
+
+#clique3{
+    display: none;
+}
+
+#clique3:checked~.flip-container3 .flipper3{
+	transform: rotateY(180deg);
+	
+}
+.imagem3{
+    background-color:#dfdfdf;
+    width:150px;
+    height: 150px;
+    position:relative;
+}
+.imagem3 p{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(105, 147, 133);
+     
+      
+}
+.flip-container3 {
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+}
+
+.flipper3{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+    transition: 0.8s;
+    position: relative;
+}
+.frontal3,.verso3{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}  
+.verso3{
+	transform: rotateY(180deg);
+}
+/* quarta imagem  */
+
+#clique4{
+    display: none;
+}
+
+#clique4:checked~.flip-container4 .flipper4{
+	transform: rotateY(180deg);
+	
+}
+.imagem4{
+    background-color:#dfdfdf;
+    width:150px;
+    height: 150px;
+    position:relative;
+}
+.imagem4 p{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(105, 147, 133);
+     
+      
+}
+.flip-container4 {
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+}
+
+.flipper4{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+    transition: 0.8s;
+    position: relative;
+}
+.frontal4,.verso4{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}  
+.verso4{
+	transform: rotateY(180deg);
+}
+
+/* quinta imagem  */
+
+
+#clique5{
+    display: none;
+}
+
+#clique5:checked~.flip-container5 .flipper5{
+	transform: rotateY(180deg);
+	
+}
+.imagem5{
+    margin-right: 10px;
+    background-color:#dfdfdf;
+    width:150px;
+    height: 150px;
+    position:relative;
+}
+.imagem5 p{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(105, 147, 133);
+     
+      
+}
+.flip-container5 {
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+}
+
+.flipper5{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+    transition: 0.8s;
+    position: relative;
+}
+.frontal5,.verso5{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}  
+.verso5{
+	transform: rotateY(180deg);
+}
+
+/* sexta imagem  */
+
+#clique6{
+    display: none;
+}
+
+#clique6:checked~.flip-container6 .flipper6{
+	transform: rotateY(180deg);
+	
+}
+.imagem6{
+    background-color:#dfdfdf;
+    width:150px;
+    height: 150px;
+    position:relative;
+}
+.imagem6 p{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(105, 147, 133);
+     
+      
+}
+.flip-container6 {
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+}
+
+.flipper6{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+    transition: 0.8s;
+    position: relative;
+}
+.frontal6,.verso6{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}  
+.verso6{
+	transform: rotateY(180deg);
+}
+/* setima imagem  */
+
+#clique7{
+    display: none;
+}
+
+#clique7:checked~.flip-container7 .flipper7{
+	transform: rotateY(180deg);
+	
+}
+.imagem7{
+    background-color:#dfdfdf;
+    width:150px;
+    height: 150px;
+    position:relative;
+}
+.imagem7 p{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(105, 147, 133);
+     
+      
+}
+.flip-container7 {
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+}
+
+.flipper7{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+    transition: 0.8s;
+    position: relative;
+}
+.frontal7,.verso7{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}  
+.verso7{
+	transform: rotateY(180deg);
+}
+
+/* oitava imagem  */
+
+#clique8{
+    display: none;
+}
+
+#clique8:checked~.flip-container8 .flipper8{
+	transform: rotateY(180deg);
+	
+}
+.imagem8{
+    background-color:#dfdfdf;
+    width:150px;
+    height: 150px;
+    position:relative;
+}
+.imagem8 p{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(105, 147, 133);
+     
+      
+}
+.flip-container8 {
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+}
+
+.flipper8{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+    transition: 0.8s;
+    position: relative;
+}
+.frontal8,.verso8{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}  
+.verso8{
+	transform: rotateY(180deg);
+}
+
+/* nona imagem  */
+
+#clique9{
+    display: none;
+}
+
+#clique9:checked~.flip-container9 .flipper9{
+	transform: rotateY(180deg);
+	
+}
+.imagem9{
+    background-color:#dfdfdf;
+    width:150px;
+    height: 150px;
+    position:relative;
+}
+.imagem9 p{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(105, 147, 133);
+     
+      
+}
+.flip-container9 {
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+}
+
+.flipper9{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+    transition: 0.8s;
+    position: relative;
+}
+.frontal9,.verso9{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}  
+.verso9{
+	transform: rotateY(180deg);
+}
+
+/* decima imagem  */
+
+#clique10{
+    display: none;
+}
+
+#clique10:checked~.flip-container10 .flipper10{
+	transform: rotateY(180deg);
+	
+}
+.imagem10{
+    background-color:#dfdfdf;
+    width:150px;
+    height: 150px;
+    position:relative;
+}
+.imagem10 p{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(105, 147, 133);
+     
+      
+}
+.flip-container10 {
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+}
+
+.flipper10{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+    transition: 0.8s;
+    position: relative;
+}
+.frontal10,.verso10{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}  
+.verso10{
+	transform: rotateY(180deg);
+}
+
+/* decima primeira imagem */
+
+
+#clique11{
+    display: none;
+}
+
+#clique11:checked~.flip-container11 .flipper11{
+	transform: rotateY(180deg);
+	
+}
+.imagem11{
+    background-color:#dfdfdf;
+    width:150px;
+    height: 150px;
+    position:relative;
+}
+.imagem11 p{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(105, 147, 133);
+     
+      
+}
+.flip-container11 {
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+    margin-right: 10px;
+}
+
+.flipper11{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+    transition: 0.8s;
+    position: relative;
+}
+.frontal11,.verso11{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}  
+.verso11{
+	transform: rotateY(180deg);
+}
+
+/* decima segunda imagem */
+
+#clique12{
+    display: none;
+}
+
+#clique12:checked~.flip-container12 .flipper12{
+	transform: rotateY(180deg);
+	
+}
+.imagem12{
+    background-color:#dfdfdf;
+    width:150px;
+    height: 150px;
+    position:relative;
+}
+.imagem12 p{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(105, 147, 133);
+     
+      
+}
+.flip-container12 {
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+}
+
+.flipper12{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+    transition: 0.8s;
+    position: relative;
+}
+.frontal12,.verso12{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}  
+.verso12{
+	transform: rotateY(180deg);
+}
